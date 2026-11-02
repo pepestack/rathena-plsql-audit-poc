@@ -48,7 +48,8 @@ docs/                       # Informe y diagramas
 
 ## Suposiciones
 
-Los scripts no crean su propio entorno. Esto es lo que asumen, reconstruido a partir del código. `sql/00_admin_setup.sql` es un script de referencia para la parte del administrador.
+El proyecto aún no contempla la extracción de las tablas desde la base de datos original, debido a que por fines académicos, archivos .yaml relacionados con items fueron convertidos a tablas relacionales, a sabiendas de que la base de datos soporta formatos más aptos para esos archivos como JSON, ésto queda sujeto a cambios en un futuro. 
+`sql/00_admin_setup.sql` es un script de referencia para la parte del administrador.
 
 **Plataforma**
 - Oracle Autonomous Database 26ai (Lakehouse).
