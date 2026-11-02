@@ -1,0 +1,8 @@
+# credentials / local config
+*.pwd
+.env
+wallet/
+Wallet_*
+*.sso
+*.p12
+*.jks
