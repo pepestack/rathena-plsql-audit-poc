@@ -412,3 +412,6 @@ CREATE OR REPLACE PACKAGE BODY pkg_auditoria AS
 
 END pkg_auditoria;
 /
+
+-- asignar permiso de ejecución a desarolladores mediante ro_data
+GRANT EXECUTE ON pkg_auditoria   TO desarrollador;

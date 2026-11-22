@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS log_explorador (
     equipo                VARCHAR2(256),
     ip                    VARCHAR2(64),
     modulo                VARCHAR2(64),
-    accion                VARCHAR2(64),              -- por MCP: nombre de la herramienta
+    accion                VARCHAR2(64),              -- nombre de la herramienta MCP
     identificador_cliente VARCHAR2(64),
     sid                   NUMBER,
     fecha                 TIMESTAMP DEFAULT SYSTIMESTAMP NOT NULL

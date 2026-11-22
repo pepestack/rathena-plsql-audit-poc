@@ -197,3 +197,6 @@ CREATE OR REPLACE PACKAGE BODY pkg_instalacion AS
 
 END pkg_instalacion;
 /
+
+-- Ejecutar como ro_data
+GRANT EXECUTE ON pkg_instalacion TO desarrollador;

@@ -1,6 +1,5 @@
 -- Triggers de solo inserción para las tablas de bitácora
 
---  Como TRUNCATE es DDL, no funcionaria aqui.
 --  ALTER TRIGGER trg_log_explorador_inmutable DISABLE para deshabilitar
 
 CREATE OR REPLACE TRIGGER trg_log_explorador_inmutable

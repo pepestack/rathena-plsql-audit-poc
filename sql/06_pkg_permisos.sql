@@ -29,7 +29,7 @@ CREATE OR REPLACE PACKAGE BODY pkg_permisos AS
 
 
     -- No se publican:
-    --   tablas de hallazgos (las define pkg_instalacion)
+    --   tablas de hallazgos
     --   tablas con comentario '[PRIVADA]...' (logs y otras internas)
     FUNCTION es_excluida (p_tabla IN VARCHAR2) RETURN BOOLEAN IS
         v_privada NUMBER;
